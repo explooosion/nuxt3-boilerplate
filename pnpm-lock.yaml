@@ -4,9 +4,14 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  defu:
+    specifier: ^6.1.2
+    version: 6.1.2
+
 devDependencies:
   '@nuxt/devtools':
-    specifier: latest
+    specifier: ^0.6.7
     version: 0.6.7(nuxt@3.6.2)(vite@4.4.2)
   '@nuxtjs/eslint-config-typescript':
     specifier: ^12.0.0
@@ -3589,7 +3594,6 @@ packages:
 
   /defu@6.1.2:
     resolution: {integrity: sha512-+uO4+qr7msjNNWKYPHqN/3+Dx3NFkmIzayk2L1MyZQlvgZb/J1A0fo410dpKrN2SnqFjt8n4JL8fDJE0wIgjFQ==}
-    dev: true
 
   /delayed-stream@1.0.0:
     resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==}
