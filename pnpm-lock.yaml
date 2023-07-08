@@ -11,7 +11,7 @@ dependencies:
 
 devDependencies:
   '@nuxt/devtools':
-    specifier: ^0.6.7
+    specifier: latest
     version: 0.6.7(nuxt@3.6.2)(vite@4.4.2)
   '@nuxtjs/eslint-config-typescript':
     specifier: ^12.0.0
@@ -989,6 +989,11 @@ packages:
 
   /@intlify/shared@9.3.0-beta.22:
     resolution: {integrity: sha512-GS+OHgYcHaq7a+zC1dlVvEHUYHVPKPC/tV3OmFyKJ2Lm7qAFmX29MQn9WOG4WtUme86tPp5LRFz6mYL5VQUJqQ==}
+    engines: {node: '>= 16'}
+    dev: true
+
+  /@intlify/shared@9.3.0-beta.23:
+    resolution: {integrity: sha512-ozhS+OrHXY8WErxJIarlW7fwLvbMPr53JcXjlRiZr1IJUjDvAo5t40nUnBdyR3h/A8gHboLb45RvFJYU4qfuRA==}
     engines: {node: '>= 16'}
     dev: true
 
@@ -9172,7 +9177,7 @@ packages:
       vue-router:
         optional: true
     dependencies:
-      '@intlify/shared': 9.3.0-beta.22
+      '@intlify/shared': 9.3.0-beta.23
       '@intlify/vue-i18n-bridge': 0.8.0(vue-i18n@9.3.0-beta.22)
       '@intlify/vue-router-bridge': 0.8.0(vue@3.3.4)
       ufo: 1.1.2
