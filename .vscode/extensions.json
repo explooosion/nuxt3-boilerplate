@@ -6,7 +6,8 @@
     "vue.volar",
     "Vue.vscode-typescript-vue-plugin",
     "wayou.vscode-todo-highlight",
-    "mikestead.dotenv"
+    "mikestead.dotenv",
+    "bradlc.vscode-tailwindcss"
   ],
   "unwantedRecommendations": [
     "octref.vetur",
