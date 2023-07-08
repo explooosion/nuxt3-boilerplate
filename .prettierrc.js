@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ['prettier-plugin-tailwindcss'],
   arrowParens: 'avoid',
   printWidth: 100, // 每行文字數量達 100 字元就換到新的一行
   semi: true, // 每個語句的結尾不需要分號
